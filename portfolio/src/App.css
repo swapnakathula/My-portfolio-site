@@ -52,3 +52,50 @@ height: 100%;
     font-size: 5em;
     padding: 8px;
 }
+/* .projects-page{
+    display: flex;
+     justify-content: center; 
+}  */
+
+/* contact page css */
+.contact-body {
+    margin: auto;
+    background:white;
+    position: fixed; 
+    width: 100%;
+    height:100%;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.contact-grid {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background: #afe3da;
+    color: black;
+    /* border: 2px solid red; */
+    margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+    font-family: 'Anton',sans-serif;  
+}
+
+.contact-grid p {
+    font-family: 'Oxygen',sans-serif;
+    font-weight: bold;
+} 
+
+.contact-list i {
+    font-size: 50px;
+    padding-right: 4rem;
+}
+
+
+
+
+
+
+
