@@ -1,27 +1,33 @@
 .header-color {
-background: #833ab4;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #DA22FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-weight: bold;
 }
+
 .landing-page {
-    background: #833ab4;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-text-align: center;
-position: fixed;
-top: 0;
+    background-image: url('./images/landingimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    height: auto;
+    margin-bottom: 0px;
+    text-align: center;
+ position: fixed; 
+ top: 0;
 left: 0;
 width: 100%;
-height: 100%;
+height: 100%; 
 }
 .avatar-img{
+    /* width:250px; */
     height: 250px;
     padding-top: 5em;
 
 }
 .banner-text {
-    background-color: black;
-    opacity: .8;
+    background: #DA22FF;  /* fallback for old browsers */
+    opacity: 0.9;
     width: 75%;
     margin: auto;
     border-radius: 10px;
@@ -29,6 +35,7 @@ height: 100%;
 .banner-text h1 {
     font-size: 66px;
     font-weight: bold;
+    /* color: white; */
     color: white;
 }
 .banner-text hr {
@@ -40,6 +47,7 @@ height: 100%;
     color: white;
     font-size: 20px;
     padding: 1em;
+    text-align: center;
 }
 .social-links {
     display:flex;
@@ -73,8 +81,10 @@ height: 100%;
     justify-content: center;
     width: 80%;
     height: 550px;
-    background: #afe3da;
-    color: black;
+    background: #DA22FF;
+    /* opacity: 0.9; */
+    /* color: black; */
+    color: white;
     /* border: 2px solid red; */
     margin-bottom: 20px;
 }
@@ -88,12 +98,84 @@ height: 100%;
     font-weight: bold;
 } 
 
+
 .contact-list i {
     font-size: 50px;
     padding-right: 4rem;
 }
+/* aboutme page */
+ .aboutme-body {
+    margin: auto;
+    background:white;
+    position: absolute; 
+    width: 100%;
+    height:100%;
+    justify-content: center;
+    padding-top: 2em;
+} 
+.aboutme-grid {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 750px;
+    background: #DA22FF;
+    /* opacity: 0.9; */
+    /* color: black; */
+    color: white;
+    /* border: 2px solid red; */
+    padding-top: 2em;
+    margin-top: 20px;
+    margin-bottom: 30px;
+   
+    /* background-position: center ;
+    height: auto;
+    margin-bottom: 0px;
+    text-align: center;
+ position: fixed; 
+ top: 0;
+left: 0;
+width: 100%;
+height: 100%;  */
+} 
+.avatar-img2{
+    height: 250px;
+    padding-top: 1em;
 
+}
 
+.aboutme-grid p {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0.4em;
+    text-align: justify;
+}
+
+.cardTitle1 {
+    background: url('./images/food.jpg');
+    background-repeat: no-repeat;
+
+   color: red;
+    /* color: 'red', background: 'url("images/food.jpg") bottom right 15% no-repeat #46B6AC' */
+}
+.cardTitle2 {
+    background: url('./images/finance.jpg');
+    background-repeat: no-repeat;
+
+   color: red;
+}
+.cardTitle3 {
+    background: url('./images/train.jpg');
+    background-repeat: no-repeat;
+
+   color: red;
+}
+.cardTitle4 {
+    background: url('./images/animal.jpg');
+    background-repeat: no-repeat;
+
+   color: red;
+}
 
 
 

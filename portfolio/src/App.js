@@ -11,22 +11,14 @@ class App extends Component {
         return (
             <div className="demo-big-content">
     <Layout>
-        <Header className="header-color" title="Title" scroll>
-            <Navigation>
-                <Link to="/resume">Resume</Link>
-                <Link to="/aboutme">About Me</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
+        <Header className="header-color" title="Swapna Kathula"  style={{color: 'white',fontSize: '1000px',fontWeight:'2em'}}>
+            <Navigation className="nav-links" >
+                <Link to="/home" style={{color: 'white',fontSize: '20px'}}><strong>Home</strong></Link>
+                <Link to="/aboutme" style={{color: 'white',fontSize: '20px'}}><strong>About Me</strong></Link>
+                <Link to="/projects" style={{color: 'white',fontSize: '20px'}}><strong>Projects</strong></Link>
+                <Link to="/contact" style={{color: 'white',fontSize: '20px'}}><strong>Contact</strong></Link>
             </Navigation>
         </Header>
-        <Drawer title="Title">
-            <Navigation>
-                <Link to="/resume">Resume</Link>
-                <Link to="/aboutme">About Me</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
-            </Navigation>
-        </Drawer>
         <Content>
             <div className="page-content" />
             <Main/>
